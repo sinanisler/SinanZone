@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+
 /*
 
     Yes 
@@ -24,9 +26,15 @@ function About() {
         </h1>
 
         <nav className={styles.navmenu}>
-        <link href="/">SinanZone!</link> 
-        <link href="/about">About</link> 
-        <link href="/contact">Contact</link> 
+        <Link href="/" replace>
+            <a>Sinan Zone!</a>
+          </Link>
+          <Link href="/about" replace>
+            <a>About us</a>
+          </Link>
+          <Link href="/contact" replace>
+            <a>Contact</a>
+          </Link>
         </nav>
 
 
