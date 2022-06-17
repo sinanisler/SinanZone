@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-
+import Image from 'next/image'
 /*
 
     Yes 
@@ -50,6 +50,23 @@ function About() {
         
         </p>
         </main>
+
+
+
+        <footer className={styles.footer}>
+        <a
+          href="https://sinanisler.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{' '}
+          <span className={styles.logo}>
+            <Image src="/favicon.png" alt="Vercel Logo" width={16} height={16} />
+          </span>
+        </a>
+      </footer>
+
+
     </div>
     
     )
