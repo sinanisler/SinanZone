@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://github.com/sinanisler"  target='_blank'>SinanZone!</a>
+          Welcome to <a href="https://github.com/sinanisler"  target='_blank' rel="noreferrer">SinanZone!</a>
         </h1>
 
         <p className={styles.description}>
@@ -25,18 +25,18 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://sinanisler.com" className={styles.card} target='_blank'>
+          <a href="https://sinanisler.com" className={styles.card} target='_blank' rel="noopener noreferrer">
             <h2>Sinanisler.com &rarr;</h2>
             <p>The best blog in the planet Zartha.</p>
           </a>
 
-          <a href="https://atarikafa.com" className={styles.card} target='_blank'>
+          <a href="https://atarikafa.com" className={styles.card} target='_blank' rel="noopener noreferrer">
             <h2>AtariKafa.com &rarr;</h2>
             <p>MC gaming and modding website you will ever see!</p>
           </a>
 
           <a
-            href="https://www.atarikafa.com/topluluk/" className={styles.card2} target='_blank' >
+            href="https://www.atarikafa.com/topluluk/" className={styles.card2} target='_blank' rel="noopener noreferrer">
             <h2>AtariKafa.com/Topluluk &rarr;</h2>
             <p>A gaming community forum and social space for prople to have chat and share some knowledge.</p>
           </a>
@@ -46,13 +46,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://sinanisler.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/favicon.png" alt="Vercel Logo" width={16} height={16} />
           </span>
         </a>
       </footer>
