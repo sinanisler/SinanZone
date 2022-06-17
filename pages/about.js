@@ -24,9 +24,9 @@ function About() {
         </h1>
 
         <nav className={styles.navmenu}>
-        <a href="/">SinanZone!</a> 
-        <a href="/about">About</a> 
-        <a href="/contact">Contact</a> 
+        <link href="/">SinanZone!</link> 
+        <link href="/about">About</link> 
+        <link href="/contact">Contact</link> 
         </nav>
 
 
