@@ -20,7 +20,7 @@ function About() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          About
+          Contact
         </h1>
 
         <nav className={styles.navmenu}>
@@ -32,14 +32,14 @@ function About() {
 
 
         <p className={styles.description}>
-        lorem ipsum dolor sit amet ten ten lorem ipsum dolor sit amet ten  ipsum dolor <br></br>
-        lorem ipsum dolor sit amet ten ten lorem ipsum dolor sit et ten  ipsum dolor <br></br>
-        lorem ipsum dolor sit amet ten ten lorem ipsum dolor sit amet ten  ipsum dolor <br></br>
-        lorem ipsum dolor   ipsum dolor <br></br>
-        lorem ipsum dolor sit amet ten ten lorem ipsum dolor sit amet ten  ipsum dolor <br></br>
-        lorem ipsum dolor sit amet ten teorem ipsum dolor sit amet ten  ipsum dolor <br></br>
-        lorem ipsum dolor sit amet tenen lorem ipsum dolor sit amet ten  ipsum dolor <br></br>
-        lorem ipsum dolor sit amen ten lorem ipsum dolor sit amet ten  ipsum dolor <br></br>
+        
+            
+            <a href="https://github.com/sinanisler">https://github.com/sinanisler</a>  <br></br>  <br></br> 
+
+            <a href="mailto:sinan@sinanisler.com">sinan@sinanisler.com</a>   <br></br>  <br></br> 
+
+            <a href="https://linkedin.com/in/sinanisler">https://linkedin.com/in/sinanisler</a>  <br></br>  <br></br>
+        
         </p>
         </main>
     </div>

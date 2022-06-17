@@ -12,6 +12,42 @@
   align-items: center;
 }
 
+.navmenu{
+  align-items: center;
+  padding: 30px;
+  font-size: 1.5em;
+}
+
+
+.navmenu a{
+  padding: 20px;
+  color: #9502b3;
+}
+
+
+.navmenu a:hover{
+  padding: 20px;
+  color: #35053f;
+  text-decoration: underline;
+}
+
+
+
+.description a{
+  padding: 20px;
+  color: #9502b3;
+}
+
+
+.description a:hover{
+  padding: 20px;
+  color: #35053f;
+  text-decoration: underline;
+}
+
+
+
+
 .footer {
   display: flex;
   flex: 1;

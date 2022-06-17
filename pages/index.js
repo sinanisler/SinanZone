@@ -13,10 +13,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://github.com/sinanisler"  target='_blank' rel="noreferrer">SinanZone!</a>
         </h1>
+
+
+        <nav className={styles.navmenu}>
+        <a href="/">SinanZone!</a> 
+        <a href="/about">About</a> 
+        <a href="/contact">Contact</a> 
+        </nav>
+
 
         <p className={styles.description}>
           The NextJS SinanZone testing...<br></br>
